@@ -17,7 +17,7 @@
         <ul>
             <%
                 for(int i = 1; i <= 10; i++){
-                    out.print("<li>" + i + "</li>");
+                    out.print("<li>" + nome + "</li>");
                 }
             %>
         </ul>
@@ -27,7 +27,7 @@
                  <li> <%=+ i %> </li>
             <% } %>
         </ul>
-        8======================D
+
     </div>
 </body>
 </html>
